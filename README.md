@@ -14,7 +14,9 @@ Not: n1 + n2 olmasının sebebi, iki sayı çarpıldığında maksimum olacağı
 
 4- Sayılar çarpma işleminin mantığına göre çarpılır.
 
-5- Eğer maksimum basamak sayısı ( n1 + n2 ) dolmadıysa, sonuç stringinde 0 kalmış olacağı için; 0 kaldı mı diye kontrol edilir, kaldıysa silinir ve sonuç stringi main fonksiyona döndürülür.
+5- Sonuç stringi main fonksiyona döndürülür ve ekrana yazdırılır.
+
+Not: Eğer maksimum basamak sayısı ( n1 + n2 ) dolmadıysa, sonuç stringinde 0 kalmış olacağı için; 0 kaldı mı diye kontrol edilir, kaldıysa silinir ve sonuç stringi main fonksiyona döndürülür.
 
 # Kodu Ubuntu'da Derleme ve Çalıştırma
 
