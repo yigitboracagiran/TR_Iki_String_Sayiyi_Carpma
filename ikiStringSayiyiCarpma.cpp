@@ -1,9 +1,10 @@
 #include <iostream>
+#include <vector>
 
 class Solution {
 public:
-    std::string multiply(std::string num1, std::string num2) {
-        if( num1 == "0" || num2 == "0" ){
+    std::string multiply( std::string num1, std::string num2 ) {
+        if ( num1 == "0" || num2 == "0" ) {
             return "0";
         }
         int n1 = num1.size();
@@ -16,7 +17,7 @@ public:
                 sonuc[i+j] += ( gecici / 10 );
             }
         }
-        if( sonuc[0] == '0' ){
+        if( sonuc[0] == '0' ) {
             return sonuc.substr(1);
         }
         return sonuc;
